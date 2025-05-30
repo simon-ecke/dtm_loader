@@ -1,0 +1,20 @@
+name: dgm_loader
+channels:
+  - conda-forge
+dependencies:
+  # ── runtime ──────────────────────────────────────────
+  - python=3.9           # match your working major.minor
+  - gdal=3.10.*          # pin major/minor; keep in sync with rasterio
+  - rasterio=1.4.3
+  - numpy=2.0.*          # (or 2.2 if you upgrade later)
+  - aiohttp=3.12.*
+  - aiofiles=24.1.*
+  - tqdm=4.67.*
+  # ── optional dev / notebook tools ────────────────────
+  - ipykernel            # only if you use Jupyter
+  - jupyterlab           # 〃
+  # ── pip-only extras ─────────────────────────────────
+  - pip
+  - pip:
+      # packages that have no Conda build (none in your list now)
+      # - my_pip_only_pkg==1.2.3
