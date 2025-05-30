@@ -26,7 +26,7 @@ What it does
    
 ![Image showing elevation file loaded](dtm_image.PNG)
 
-# -> Now import this to DJI's remote controller!
+## -> Now import this to DJI's remote controller to use it for terrain following!
 
 
 Dependencies
