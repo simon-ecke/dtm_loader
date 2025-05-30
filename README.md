@@ -37,5 +37,5 @@ Dependencies
 This package was developed and tested on Windows Server 2016 running python=3.9.
 We use conda to create a new environment:
 
-conda env create -f environment.yml
-conda activate dgm_loader
+user@userpc: /dtm_loader$ conda env create -f environment.yml
+conda activate dtm_loader
