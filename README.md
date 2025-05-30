@@ -23,6 +23,8 @@ What it does
    • Calls `gdal.Warp` to transform the temp raster to EPSG 4326, bilinear
      resample, LZW-compress and tile.  
    • Output: a ready-to-serve GeoTIFF at native ground resolution.
+   
+![Image showing elevation file loaded](dtm_image.png)
 
 Dependencies
 ------------
