@@ -1,8 +1,8 @@
-# dtm loader and converter to enable accurate terrain following using DJI Drones
+# dtm loader and converter to enable accurate terrain following using DJI drones
 !Tested with DJI Mavic 3 Enterprise & DJI Matrice 350 RTK!
 
 Small script that turns a pile of 1-metre German DGM raster tiles into a single, cloud-optimised GeoTIFF in geographic WGS-84 coordinates and ellipsoidal heights.
-Can be used for any other tiles aswell.
+Can be used for any other tiles as well.
 
 What it does
 ------------
@@ -25,6 +25,9 @@ What it does
    • Output: a ready-to-serve GeoTIFF at native ground resolution.
    
 ![Image showing elevation file loaded](dtm_image.PNG)
+
+# -> Now import this to DJI's remote controller!
+
 
 Dependencies
 ------------
