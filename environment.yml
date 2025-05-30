@@ -1,4 +1,4 @@
-name: dgm_loader
+name: dtm_loader
 channels:
   - conda-forge
 dependencies:
