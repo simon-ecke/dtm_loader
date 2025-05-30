@@ -24,7 +24,7 @@ What it does
      resample, LZW-compress and tile.  
    • Output: a ready-to-serve GeoTIFF at native ground resolution.
    
-![Image showing elevation file loaded](dtm_image.png)
+![Image showing elevation file loaded](dtm_image.PNG)
 
 Dependencies
 ------------
